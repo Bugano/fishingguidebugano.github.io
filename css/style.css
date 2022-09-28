@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+html, body {
+    height: 100%; 
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: rgb(18,133,142);
+    background: linear-gradient(23deg, rgba(18,133,142,1) 100%, rgba(255,0,0,1) 100%);
+    
+    
+
+}
+.avatar{
+    width: 90px;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1{
+    
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2{
+    font-size: 16px;
+
+}
+
+.profile{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social img {
+    
+    vertical-align: middle;
+    border-style: none;
+    width: 50px;
+    height: auto;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+   
+}
+
+.social img:hover {
+    vertical-align: middle;
+    border-style: none;
+    width: 100px;
+    height: auto;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+
+
+.links-list{
+    list-style: none;
+}
+
+
+.links-list li{
+    margin: 10px 20px;
+    
+}
+
+.links-list li a {
+    background: white;
+    padding: 15px 20px;
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+    color:rgb(54, 187, 204);
+    font-weight: bold;
+    box-shadow: 0px 0px 10px white;
+    border-style:groove
+}
+
+.links-list li :hover{
+    color: rgb(115, 1, 221);
+    background: rgb(171, 255, 220);
+    font-weight: bold;
+    display: block;
+    border-radius: 10px;
+    border-color: rgba(89, 0, 255, 0.959);
+   
+    
+    
+}
+
+
+
+h3.tucunaré{
+    font-weight: 100;
+    font-size: 15px;
+    border-style: groove;
+    display: block;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 10px white;
+    margin: 10px;
+    background: rgb(118, 2, 145);
+    background: linear-gradient(23deg, rgba(81, 68, 83, 0.818) 100%, rgba(255,0,0,1) 100%);
+}
+
+h3.tilápia{
+    font-weight: 100;
+    font-size: 15px;
+    border-style: groove;
+    display: block;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 10px white;
+    margin: 10px;
+    background: rgb(74,9,88);
+    background: linear-gradient(23deg, rgba(81, 68, 83, 0.818) 100%, rgba(255,0,0,1) 100%);
+}
+
+
+.horarios{
+    font-weight: 100;
+    font-size: 15px;
+    border-style: groove;
+    display: block;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 10px white;
+    margin: 10px;
+    background: rgb(74,9,88);
+    background: linear-gradient(23deg, rgba(81, 68, 83, 0.818) 100%, rgba(255,0,0,1) 100%);
+}
+
+h2::before {
+   background-image: url(https://i.pinimg.com/originals/03/98/d1/0398d1e04fb018e6f66d483301bcf76b.gif);
+   background-size: cover;
+   width: 40px;
+   height: 40px;
+   display:inline-block;
+   content: "";
+   margin-right: 12px;
+   vertical-align:middle
+}
+
+h2::after {
+    background: url(https://i.pinimg.com/originals/03/98/d1/0398d1e04fb018e6f66d483301bcf76b.gif);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    display:inline-block;
+    content:"";
+    margin-left: 0;
+    vertical-align:middle
+}
